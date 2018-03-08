@@ -14,6 +14,6 @@ public class MyConfigClientApplication {
 
 	@Autowired
 	void setEnvironment(Environment env) {
-		System.out.println("mysqldb.datasource.password from env: " + env.getProperty("mysqldb.datasource.password"));
+		System.out.println("mysqldb.datasource.url from env: " + env.getProperty("mysqldb.datasource.url"));
 	}
 }
